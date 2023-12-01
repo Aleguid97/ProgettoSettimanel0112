@@ -1,0 +1,28 @@
+@import "bootstrap-overrides";
+body{
+    box-sizing: border-box;
+}
+.btn-dark{
+    --bs-btn-bg: black;
+    --bs-btn-hover-color:white;
+    --bs-btn-hover-bg: black;
+}
+.h4 .h2 {
+    transform: translate(20px);
+}
+.row {
+    --bs-gutter-x: 0.5rem;}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){ 
+.container-xl, .container-lg, .container-md, .container-sm, .container{
+    max-width: 1285px;}
+}
